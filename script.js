@@ -310,7 +310,7 @@ class Wave {
         this.height = this.game.rows * this.game.enemySize;
         this.x = this.game.width * 0.5 - this.width * 0.5;
         this.y = -this.height;
-        this.speedX = Math.random() < 0.5 ? -1 : 7;
+        this.speedX = Math.random() < 0.5 ? -1 : 5;
         this.speedY = 0;
         this.enemies = [];
         this.nextWaveTrigger = false;
